@@ -31,8 +31,9 @@ yPreyPos BYTE ?
 horizAxis BYTE 45,44,43,42,41, 100 DUP(?) ;To store coordinates of snake
 vertAxis BYTE 15,15,15,15,15, 100 DUP(?)
 ;fixed positions
-horizAxisFence BYTE 34,34,84,84 ;left,bottom,right	
-vertAxisFence BYTE 5,24,5,24 ;left-top,line,right-top,print
+
+horizAxisFence BYTE 34,34,84,84 ;xcord topline,xcord bottom,right
+vertAxisFence BYTE 5,24,5,24 	;ycord topline,ycord bottom,right-top,print
 
 
 inputChar BYTE "+"					
